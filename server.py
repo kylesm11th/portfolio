@@ -1,7 +1,6 @@
-import email
 import csv
-from flask import Flask, render_template, request, redirect
-from service_identity import SubjectAltNameWarning
+from flask import Flask, render_template, request, redirect, url_for
+
 app = Flask(__name__)
 
 
